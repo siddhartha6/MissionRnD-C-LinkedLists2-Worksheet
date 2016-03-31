@@ -23,8 +23,10 @@ struct node {
 int linkedListMedian(struct node *head) {
 	if (head == NULL)
 	        return -1;
+
 	int array[100];
-    int index=0,temp=0,result=0;
+    int index=0,temp=0,result=0
+		;
 	while (head != NULL)
 	{
 		array[index] = head->num;     //moving every node element to an array
